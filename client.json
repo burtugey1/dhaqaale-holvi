@@ -1,0 +1,18 @@
+{
+  "client_id": "https://burtugey1.github.io/dhaqaale-holvi/client.json",
+  "client_name": "Dhaqaale",
+  "client_uri": "https://burtugey1.github.io",
+  "redirect_uris": [
+    "http://127.0.0.1:3049/holvi/callback",
+    "http://localhost:3049/holvi/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "banking:read bookkeeping:read"
+}
